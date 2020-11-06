@@ -1,0 +1,125 @@
+#tweetContent{
+    width: 980px;
+    margin: 0 auto;
+}
+
+#siteTitle{
+    font-size: 40px;
+}
+
+h1{
+    border: solid 3px #555555;
+}
+
+h2{
+    
+    border-bottom: dashed 3px #555555;
+}
+
+#pageBody{
+    
+    background: #b0e0e6;
+    width: 220px;
+     position:relative;
+     top: -100px;
+    float: left;
+}
+
+#submitBlock{
+    width: 720px;
+    
+    float: right;
+}
+
+#pagegray{
+    color: gray;
+}
+
+#pageFooter{
+    text-align: center;
+    clear: both;
+}
+
+.img-right{
+    float: right;
+}
+
+.btn--orange,
+.btn--orange {
+  color: #fff;
+  background-color: #00bfff;
+}
+.btn--orange:hover,
+.btn--orange:hover {
+  color: #87ceeb;
+  background: #f56500;
+}
+
+.btn--radius {
+   border-radius: 100vh;
+}
+.icon{
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+  width: 200px;  /* 縦横を同じ値にする */
+  height: 200px;  /* 縦横を同じ値にする */
+  position:relative;
+  top: -100px;
+  left:10px;
+}
+
+.twitter{
+    font-size: x-large;
+    text-decoration: none;
+    font-weight: 900;
+    background-color: #ffffff;
+    color: #00bfff;
+    padding-top: 20px;
+    width: 50%;
+    margin: 10% auto;
+    position:relative;
+    left: 100px;
+}
+
+.twitter1{
+    
+    font-size: x-large;
+    vertical-align : top;
+    text-decoration: none;
+    font-weight: 900;
+    background-color: #ffffff;
+    color: #696969;
+    padding-top: 20px;
+    width: 50%;
+    margin: 10% auto;
+    position:relative;
+    left: 100px;
+}
+
+
+
+.headerimg{
+    width: 1000px;
+    height: 300px;
+}
+
+.CRUD {
+  font-size:x-large;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+  background-image: -webkit-linear-gradient(left, #fa709a 0%, #fee140 100%);
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+.CRUD:hover {
+     font-size:x-large;
+     -webkit-transform: translate(0, -2px);
+     transform: translate(0, -2px);
+     color: #fff;
+     -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+     box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+}
+    

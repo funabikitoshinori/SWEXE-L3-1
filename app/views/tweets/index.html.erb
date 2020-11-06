@@ -1,0 +1,28 @@
+<div class="first">
+
+<% if flash[:notice] %>
+ <%= flash[:notice] %>
+<% end %>
+<ul>
+ 
+<%=  link_to 'ツイート',new_tweet_path, class: "twitter" %>
+<%= link_to 'ツイートと返信',new_tweet_path, class: "twitter" %>
+<%= link_to 'ツイートメディア',new_tweet_path, class: "twitter" %>
+</ul>
+
+<% @tweets.each do |tweet| %>
+
+ <p>
+     <%= tweet.message %>
+     
+     <% time = ((Time.current.to_i - tweet.tdate.to_i) / 60) %>
+     
+     <%= "#{time}分前" %>
+    <br>
+     <%= link_to '削除', tweet_path(tweet.id), method: :delete, class: "CRUD" %>
+     <%= link_to '表示', tweet_path(tweet.id), class: "CRUD" %>
+     <%= link_to '編集', edit_tweet_path(tweet.id), class: "CRUD" %>
+     
+ </p>
+<% end %>
+</div>
